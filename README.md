@@ -1,13 +1,12 @@
 ![2](https://github.com/Ahsnazari/FEM_3phase_trans/assets/118515566/f30c3b09-17b4-44b6-beda-5a7bf84877b2)# FEM_3phase_trans
 In this project a 3phase transformator is analyzed utilizing Ansys Maxwell software's FEA.
 This is a simple project for learning AnSYS and FEA's basics. A 3phase, stacked steel transformer is modelled. 
-First we build a 2d model of a 3phase trans:
-![image](https://github.com/Ahsnazari/FEM_3phase_trans/assets/118515566/75344a5e-5945-4c63-bda1-6ec1b0b8139e)
-This is the B distribution in the model following one half cycle and at the end of simulation (5 cycles).
+First we build a 3d model of a 3phase trans:
+![image](https://github.com/Ahsnazari/FEM_3phase_trans/assets/118515566/a441c31d-5dff-44aa-a505-5e14b034ddd8)
 
-![1](https://github.com/Ahsnazari/FEM_3phase_trans/assets/118515566/e25fbe46-5605-4c73-953a-153f42a9dbbc)
-![2](https://github.com/Ahsnazari/FEM_3phase_trans/assets/118515566/0daf1fa3-3702-4a3a-91c4-bbcc7b945f22)
-And the flux distribution:
-
-![image](https://github.com/Ahsnazari/FEM_3phase_trans/assets/118515566/e639baea-76f5-4992-a205-91cfdef3ecd5)
+Then, after assigning materials to the coils and cores, we will begin the FEM modelling. The change of magnetic field distribution in different timesteps:
+![trans3phase_3dmodel](https://github.com/Ahsnazari/FEM_3phase_trans/assets/118515566/d32e3e34-830d-4b3d-b875-0284cad504f3)
+The stranded loss and calculated inductance of phase A (high voltage side)
+![inductance](https://github.com/Ahsnazari/FEM_3phase_trans/assets/118515566/43183d7a-96ff-4ade-8bf7-e889ca766e03)
+![stranded loss](https://github.com/Ahsnazari/FEM_3phase_trans/assets/118515566/2043a0ee-385b-41d7-aeec-8f51ad85cb97)
 In the next step we will optimize our design using the results from previous step.
